@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/reactweb/static/css/main.19fea7fd.chunk.css",
+    "main.js": "/reactweb/static/js/main.0120f6ac.chunk.js",
+    "main.js.map": "/reactweb/static/js/main.0120f6ac.chunk.js.map",
+    "runtime-main.js": "/reactweb/static/js/runtime-main.6648a315.js",
+    "runtime-main.js.map": "/reactweb/static/js/runtime-main.6648a315.js.map",
+    "static/css/2.c5403167.chunk.css": "/reactweb/static/css/2.c5403167.chunk.css",
+    "static/js/2.64f8862a.chunk.js": "/reactweb/static/js/2.64f8862a.chunk.js",
+    "static/js/2.64f8862a.chunk.js.map": "/reactweb/static/js/2.64f8862a.chunk.js.map",
+    "static/js/3.65759527.chunk.js": "/reactweb/static/js/3.65759527.chunk.js",
+    "static/js/3.65759527.chunk.js.map": "/reactweb/static/js/3.65759527.chunk.js.map",
+    "index.html": "/reactweb/index.html",
+    "static/css/2.c5403167.chunk.css.map": "/reactweb/static/css/2.c5403167.chunk.css.map",
+    "static/css/main.19fea7fd.chunk.css.map": "/reactweb/static/css/main.19fea7fd.chunk.css.map",
+    "static/js/2.64f8862a.chunk.js.LICENSE.txt": "/reactweb/static/js/2.64f8862a.chunk.js.LICENSE.txt",
+    "static/media/Frame 1.539ee0eb.png": "/reactweb/static/media/Frame 1.539ee0eb.png",
+    "static/media/Frame 2.d6326924.png": "/reactweb/static/media/Frame 2.d6326924.png",
+    "static/media/Frame.273ada52.jpg": "/reactweb/static/media/Frame.273ada52.jpg",
+    "static/media/about.33e0a740.jpg": "/reactweb/static/media/about.33e0a740.jpg",
+    "static/media/devloper1.d77d6c9b.jpg": "/reactweb/static/media/devloper1.d77d6c9b.jpg",
+    "static/media/download.702f4d3b.png": "/reactweb/static/media/download.702f4d3b.png",
+    "static/media/money2.d6aba36f.jpg": "/reactweb/static/media/money2.d6aba36f.jpg",
+    "static/media/new.d11225ce.jpg": "/reactweb/static/media/new.d11225ce.jpg",
+    "static/media/pro1.207b342b.png": "/reactweb/static/media/pro1.207b342b.png",
+    "static/media/pro2.1dfb9841.jpg": "/reactweb/static/media/pro2.1dfb9841.jpg",
+    "static/media/pro3.a55ea3e0.png": "/reactweb/static/media/pro3.a55ea3e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6648a315.js",
+    "static/css/2.c5403167.chunk.css",
+    "static/js/2.64f8862a.chunk.js",
+    "static/css/main.19fea7fd.chunk.css",
+    "static/js/main.0120f6ac.chunk.js"
+  ]
+}
