@@ -1,0 +1,68 @@
+.foot{
+   padding-top: 10px;
+   width:100%;
+   height:auto;
+   background-color: rgb(67, 106, 139);
+   /* position:absolute; */
+   margin-top: 2%;
+}
+footer{
+    bottom: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+.footer .lefts{
+    position: relative;
+    /* margin-bottom:-1%; */
+}
+.lefts p:nth-child(1){
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+}
+.logo p{
+    margin-left: 1%;
+    float:left;
+    padding: 2px;
+    margin-top: -10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.logo p:nth-child(5){
+    border-radius: 20%;
+}
+.logo p:nth-child(1):hover{
+    background-color:#1877f2;
+    border-radius: 50%;
+    color: white;
+}
+.logo p:nth-child(2):hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 50%;
+}
+.logo p:nth-child(3):hover{
+    background-color:rgb(231, 42, 28);
+    border-radius: 50%;
+}
+.logo p:nth-child(4):hover{
+    background-color:#fdc40b;
+    border-radius: 50%;
+}
+.logo p:nth-child(5):hover{
+    background: linear-gradient(90deg, rgb(33, 190, 93) 0%, rgb(48, 228, 153) 50%, rgb(86, 241, 14) 100%);
+    border-radius: 20%;
+}
+.logo p:nth-child(6):hover{
+    background-color:#05eeff;
+    border-radius: 50%;
+    color: white;
+}

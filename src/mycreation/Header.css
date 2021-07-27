@@ -1,0 +1,171 @@
+.main-header{
+    padding-bottom: 9%;
+    background-color: #0275d8;
+    /* height: 5.5vw; */
+}
+.nav{
+    /* z-index: 1; */
+    /* margin-top: 20px; */
+    width: 70%;
+    height: auto;
+    display:flex;
+    float: right;
+    text-align: center;
+    position:relative;
+    align-items: center;
+}
+.nav .link{
+    margin-left: 16%;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-top: 4%;
+}
+.link{
+    color:white;
+    font-size: 1.5vw;
+    font-weight:bold;
+    text-decoration: none;
+}
+.link p:hover{
+    color: white;
+    /* box-shadow: 0px 5px 20px 13px rgb(0, 255, 255);   */
+    border-bottom: 5px solid rgb(0, 255, 255);
+    /* border-radius: 20%;      */
+}
+.logo1{
+    width: 9vw;
+    height: auto;
+    /* margin: 5%; */
+    /* overflow-x: visible; */
+}
+.logo1 img{
+    width: 7.5vw;
+    height:auto;
+    float:left;
+    border-radius: 50%;
+    padding:2%;
+    /* z-index: 1; */
+    position: relative;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.heading{
+    margin: 5px;
+    position: absolute;
+    width: 30%;
+    margin-left: 3%;
+    text-align: justify;
+    margin-top: 1vw;
+    position: absolute;
+}
+.heading h1{
+    /* z-index: 2; */
+    margin-top: 0.2%;
+    padding: 0.5vw;
+    font-weight: bolder;
+    font-size: 2.2vw;
+    color:white;
+    position: relative;
+    margin-left: 8vw;
+}
+.heading p{
+    margin-left: 7vw;
+    font-size: 1vw;
+    width: 100%;
+    color:yellow;
+    text-transform: uppercase;
+    padding-bottom: 0.3vw;
+}
+.nav p:nth-child(5){
+    display: none;
+}
+@media  screen and (max-width:520px){
+    .main-header{
+        height: 7.8vh;
+        background-color: #0275d8;
+    }
+    .link p:hover{
+        color:#000;
+    }
+    .nav p:nth-child(5){
+        float: right;
+        display: block;
+        position: relative;
+        margin-left: 54vw;
+        margin-top: -0.5px;
+        padding: 1%;
+    }
+    .nav img{
+        width: 10vw;
+        min-height: 6.5vh;
+
+    }
+    .nav .link{
+        font-size: 3vw;
+        display: none;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .logo1 img{
+        width:13vw;
+        height:7vh;
+        padding: 0.5% 1%;
+        border-radius: 50%;
+    }
+    .heading{
+        margin-top: 2vw;
+        width: 65%;
+        padding-left: 2%;
+        overflow:scroll;
+        margin-left: -1%;
+        overflow-y: hidden;
+        
+    }
+    .heading h1{
+        text-align: center;
+        font-size: 4.8vw;
+    }
+    .heading p{
+        /* margin-left: 35%; */
+        text-align:center;
+        font-size: 2.5vw;
+        margin-top: -1%;
+    }
+    
+}
+@media only screen and (width:320px) {
+    .heading h1{
+        text-align: center;
+        font-size: 4.8vw;
+        margin-top: -1%;
+    }
+    
+}
+@media only screen and (max-width:530px){
+    .nav.responsive {
+        display: flex;
+        background-color: rgb(46, 46, 46);
+        width: 60%;
+        margin-top: 8vh;
+        right: 0;
+        justify-content: center;
+        z-index: 1;
+        position: absolute;
+    }
+    .nav.responsive  .icon {
+        position:fixed;
+        right: 0;
+        top: 0;
+        transform: rotate(90deg);
+        transition-duration: 0.5s;
+      }
+      
+  .nav.responsive .link {
+    float: none;
+    display:inline-flex;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+}

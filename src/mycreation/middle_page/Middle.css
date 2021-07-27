@@ -1,0 +1,167 @@
+.first{
+    margin: 0;
+
+}
+*{
+    scroll-behavior:smooth;
+}
+.poster h1{
+    font-size: 2em;
+}
+.poster{
+    display: flex;
+    margin-top:2%;
+    width: 100%;
+    position:relative;
+    background: rgb(75,212,247);
+    background: linear-gradient(90deg, rgba(75,212,247,1) 5%, rgba(108,134,213,1) 21%, rgba(28,86,150,1) 44%, rgba(85,31,213,1) 59%, rgba(85,33,162,1) 73%);
+    padding-left: 0.4%;
+    flex-wrap: wrap;
+    text-align: center;
+    overflow-x: hidden;
+}
+.poster img{
+    border-radius: 92% 8% 91% 9% / 42% 57% 43% 58% ;
+    padding: 0.4%;
+    background-color: rgb(52, 47, 122);
+    max-width: 45vw;
+}
+.desc{
+    max-width: 45%;
+    padding: 0.3%;
+    font-size: 1.5vw;
+}
+.desc h1{
+    text-transform: capitalize;
+}
+.desc h1:nth-child(1){
+    padding: 1%;
+    background-color: rgb(87, 231, 58);
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.desc h1:nth-child(2){
+    padding: 1%;
+    background-color:rgb(250, 154, 137);
+    color: white;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: -5%;
+}
+.desc h1:nth-child(3){
+    margin-top: 5%;
+    background-color:rgb(79, 230, 230);
+    margin-left: 5%;
+} 
+.col-md-8{  
+background-color: #77aa77;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+text-align: center;
+font-size:0.7rem;
+}
+.img_slider{
+    background-color: rgb(221, 197, 197);
+    overflow-x: hidden;
+}
+.design img:nth-child(1){
+    box-shadow: 8px 8px 8px rgb(82, 80, 80);
+}
+.design img:nth-child(2){
+    box-shadow: 8px 8px 8px rgb(128, 77, 2);
+}
+.design img:nth-child(3){
+    box-shadow: 8px 8px 8px rgb(158, 69, 69);
+}
+@media only screen and (max-width:530px) {
+
+    .poster img{
+        max-height:20rem;
+    }
+    .info{
+        margin-right: 2%;
+    }
+    .poster{
+        margin-top:2vh;
+
+    }
+    .desc h1:nth-child(1){
+        margin-top: 10%;
+        font-size: 0.9rem;
+    }
+    .desc h1:nth-child(vw){
+        margin-top: 10%;
+        font-size: 0.9rem;
+    }
+    .desc h1:nth-child(3){
+        margin-top: 10%;
+        font-size: 0.9rem;
+    }
+    .btn{
+        padding: 2%;
+    }
+}
+@media only screen and (width:280px){
+    .poster{
+        margin-top:9vw;
+    }
+}
+
+.service{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 5%;
+    color: #000;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+.card-header{
+    font-size: 1.5rem;
+}
+.card{
+    overflow:scroll;
+    text-transform: capitalize;
+    margin: 0% 1%;
+}
+.card::-webkit-scrollbar{
+    display: none;
+}
+.bg-danger:hover{
+    box-shadow: 8px 8px 15px  rgb(228, 122, 122);
+    font-size: 1.2rem;
+}
+.bg-primary:hover{
+    box-shadow: 8px 8px 15px rgb(79, 101, 230);
+    font-size: 1.2rem;
+}
+.bg-success:hover{
+    box-shadow: 8px 8px 15px rgb(61, 129, 90);
+    font-size: 1.2rem;
+}
+@media screen and (max-width:530px) {
+    .service{
+        flex-wrap:wrap;
+        justify-content: space-around;
+        overflow-x: hidden;
+    }
+    .service::-webkit-scrollbar{
+        display: none;
+    }
+    .ban{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .card-header{
+        font-size: 2rem;
+    }
+    .card-title{
+        font-size: 1.3rem;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+}
